@@ -89,9 +89,9 @@ A client MUST NOT rely on lifecycle notifications alone. It SHOULD also schedule
 
 A `reauthorization_required` notification, or reminder, tells the client that the stream's authorization ends at `authorizedUntil`, or has ended, and why. Unless the client re-authorizes the stream, it is then paused ([section 5](#5-pausing)) or ends.
 
-| Field             | Type   | Description                                                                                                                                                                                                                                                                                                                           |
-| ----------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `authorizedUntil` | string | The stream's authorization deadline. In a reminder sent while the stream is paused, it has passed.                                                                                                                                                                                                                                    |
+| Field             | Type   | Description                                                                                                                                                                                                                                                                                                                         |
+| ----------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `authorizedUntil` | string | The stream's authorization deadline. In a reminder sent while the stream is paused, it has passed.                                                                                                                                                                                                                                  |
 | `reason`          | string | Why, as for the lifetime SEP's error: `token_expiry`, `insufficient_authorization`, or `revoked` ([Authorization Lifetime, section 5](https://github.com/RamjotSingh/transports-wg/blob/sep/authorization-lifetime/proposals/XXXX-authorization-lifetime-for-subscription-streams.md#5-ending-a-stream-for-authorization-reasons)). |
 
 **Server rules**
@@ -690,7 +690,7 @@ Each question carries the author's proposed answer.
 [overview-meta]: https://modelcontextprotocol.io/specification/2026-07-28/basic/index#_meta
 [overview-requests]: https://modelcontextprotocol.io/specification/2026-07-28/basic/index#requests
 [overview-stateless]: https://modelcontextprotocol.io/specification/2026-07-28/basic/index#statelessness
-[sep-2575-resumable]: https://modelcontextprotocol.io/seps/2575-stateless-mcp#resumable-streams-are-removed
+[sep-2575-resumable]: https://modelcontextprotocol.io/seps/2575-stateless-mcp#response-streaming
 [events-sketch]: https://github.com/modelcontextprotocol/experimental-ext-triggers-events/blob/main/docs/design-sketch-proposal.md
 [conformance]: https://github.com/modelcontextprotocol/conformance
 [graph-lifecycle]: https://learn.microsoft.com/en-us/graph/change-notifications-lifecycle-events
