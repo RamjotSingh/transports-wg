@@ -175,10 +175,10 @@ Conformance scenarios, for the [conformance repository][conformance]:
 
 [issue-62]: https://github.com/modelcontextprotocol/transports-wg/issues/62
 [pr-63]: https://github.com/modelcontextprotocol/transports-wg/pull/63
-[sep-ending]: 01-ending-streams-when-authorization-ends.md
-[sep-ending-3]: 01-ending-streams-when-authorization-ends.md#3-stream-lifetime
-[sep-ending-4]: 01-ending-streams-when-authorization-ends.md#4-revocation
-[sep-ending-6]: 01-ending-streams-when-authorization-ends.md#6-re-establishing-a-stream
+[sep-ending]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md
+[sep-ending-3]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#3-stream-lifetime
+[sep-ending-4]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#4-revocation
+[sep-ending-6]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#6-re-establishing-a-stream
 [cancel-transport]: https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/cancellation#transport-specific-cancellation
 [sep-3415]: https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415
 [slack-socket]: https://docs.slack.dev/apis/events-api/using-socket-mode
