@@ -114,8 +114,8 @@ Conformance scenarios, for the [conformance repository][conformance]:
 
 [issue-62]: https://github.com/modelcontextprotocol/transports-wg/issues/62
 [pr-63]: https://github.com/modelcontextprotocol/transports-wg/pull/63
-[sep-ending]: 01-ending-streams-when-authorization-ends.md
-[sep-ending-5]: 01-ending-streams-when-authorization-ends.md#5-ending-a-stream-for-authorization-reasons
+[sep-ending]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md
+[sep-ending-5]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#5-ending-a-stream-for-authorization-reasons
 [sep-3415]: https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415
 [conformance]: https://github.com/modelcontextprotocol/conformance
 [rfc2119]: https://www.rfc-editor.org/rfc/rfc2119
