@@ -152,7 +152,7 @@ Conformance scenarios, for the [conformance repository][conformance]:
 
 [issue-62]: https://github.com/modelcontextprotocol/transports-wg/issues/62
 [pr-63]: https://github.com/modelcontextprotocol/transports-wg/pull/63
-[sep-ending]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md
+[sep-ending]: https://github.com/modelcontextprotocol/transports-wg/pull/67
 [subs-ack]: https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/subscriptions#acknowledgment
 [auth-errors]: https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization#error-handling
 [auth-stepup]: https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization#step-up-authorization-flow
