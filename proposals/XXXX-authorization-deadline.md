@@ -6,7 +6,7 @@
 - **Author(s)**: Ramjot Singh (@RamjotSingh)
 - **Sponsor**: None (seeking sponsor)
 - **PR**: TBD
-- **Requires**: [Ending Subscription Streams When Authorization Ends][sep-ending]
+- **Requires**: [#67][sep-ending] (Ending Subscription Streams When Authorization Ends)
 - **Related**: [transports-wg#62][issue-62] (discussion); split from [#63][pr-63]
 
 ## Abstract
@@ -175,7 +175,7 @@ Conformance scenarios, for the [conformance repository][conformance]:
 
 [issue-62]: https://github.com/modelcontextprotocol/transports-wg/issues/62
 [pr-63]: https://github.com/modelcontextprotocol/transports-wg/pull/63
-[sep-ending]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md
+[sep-ending]: https://github.com/modelcontextprotocol/transports-wg/pull/67
 [sep-ending-3]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#3-stream-lifetime
 [sep-ending-4]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#4-revocation
 [sep-ending-6]: https://github.com/RamjotSingh/transports-wg/blob/sep/ending-streams-when-authorization-ends/proposals/XXXX-ending-streams-when-authorization-ends.md#6-re-establishing-a-stream
